@@ -1,0 +1,41 @@
+/*RESPONSIVE*/
+/*Media Screen 992*/
+@media only screen and (max-width: 992px) {
+    #second-section{
+        .about-box{
+            padding: 5px;
+        }
+    }
+
+    #third-section{
+       h3{
+        font-size: 20px;
+       }
+       p{
+        font-size: 14px;
+       }
+    }
+}
+/*End Media Screen 992*/
+/*Media Screen 425*/
+@media only screen and (max-width: 425px) {
+    .navbar-collapse{
+        font-size: 0.85rem;
+    }
+}
+/*End Media Screen 425*/
+/*Media Screen 378*/
+@media only screen and (max-width: 378px) {
+    .navbar-collapse{
+        font-size: 0.7rem;
+    }
+}
+/*End Media Screen 378*/
+/*Media Screen 350*/
+@media only screen and (max-width: 350px) {
+    .navbar-collapse{
+        font-size: 0.55rem;
+    }
+}
+/*End Media Screen 350*/
+/*END RESPONSIVE*/

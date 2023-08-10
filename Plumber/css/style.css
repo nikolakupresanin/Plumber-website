@@ -1,0 +1,318 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box !important;
+  animation-name: defaultAnimation;
+  animation-duration: 1.5s;
+}
+
+/*DEFAULT ANIMATION*/
+@keyframes defaultAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes plumer {
+  from {
+    transform: translate(1000px);
+  }
+  to {
+    transform: translate(0px);
+  }
+}
+/*END DEFAULT ANIMATION*/
+/*NAVBAR*/
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  margin: 0px !important;
+  padding: 0px !important;
+  animation-name: defaultAnimation;
+  animation-duration: 3s;
+}
+.navbar img {
+  padding: 15px;
+}
+.navbar .navbar-brand {
+  padding: 0px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+  background-color: #fff;
+}
+.navbar-collapse .navbar-nav {
+  margin-right: 100px;
+}
+.navbar-collapse .navbar-nav a {
+  color: rgb(54, 54, 54) !important;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition-duration: 0.4s;
+}
+.navbar-collapse .navbar-nav a:hover {
+  color: #FF6B00 !important;
+}
+.navbar-collapse .navbar-nav .active {
+  color: #FF6B00 !important;
+  border-bottom: 1px solid #FF6B00;
+}
+
+.box-call {
+  background-color: #FF6B00;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+.box-call a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  transition-duration: 0.5s;
+  display: block;
+  height: 100%;
+  padding: 38px;
+}
+.box-call a svg {
+  position: relative;
+  right: 10px;
+}
+.box-call:hover {
+  background-color: #000;
+}
+.box-call:hover a {
+  color: #FF6B00;
+}
+
+/*END NAVBAR*/
+/*FIRST SECTION*/
+#first-section {
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden;
+  color: rgb(54, 54, 54);
+}
+#first-section .first-header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+#first-section .first-header-box h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+#first-section .first-header-box h1 span {
+  color: #FF6B00;
+  font-weight: 900;
+  font-size: 70px;
+}
+#first-section .first-header-box .btn-custom {
+  background-color: #FF6B00;
+  border: navajowhite;
+  transition-duration: 0.5s;
+  box-shadow: 0px 10px 10px rgb(54, 54, 54);
+}
+#first-section .first-header-box .btn-custom a {
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 1.5s;
+}
+#first-section .first-header-box .btn-custom:active {
+  transform: translate(0px, 2px);
+}
+#first-section .first-header-box .btn-custom:hover {
+  background-color: #000;
+}
+#first-section .first-header-box .btn-custom:hover a {
+  color: #FF6B00;
+}
+#first-section .first-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: plumer;
+  animation-duration: 3s;
+}
+#first-section .first-img-box img {
+  max-width: 350px;
+  max-height: 820px;
+}
+
+/*END FIRST SECTION*/
+/*SECOND SECTION*/
+#second-section {
+  background-color: #fff;
+  color: #fff;
+  padding-top: 100px;
+  color: rgb(54, 54, 54);
+}
+#second-section h2 {
+  padding: 50px 0 50px 0;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+#second-section .about-box {
+  border: 1px solid silver;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+#second-section .about-box img {
+  padding: 10px 0 10px 0;
+  max-width: 50px;
+}
+#second-section .about-box p {
+  padding: 10px;
+  text-align: center;
+}
+#second-section .about-box:hover {
+  transform: scale(1.04);
+}
+#second-section .button-box {
+  margin-top: 50px;
+}
+#second-section .btn-custom {
+  background-color: #FF6B00;
+  border: navajowhite;
+  transition-duration: 0.5s;
+  box-shadow: 0px 10px 10px rgb(54, 54, 54);
+}
+#second-section .btn-custom a {
+  text-decoration: none;
+  color: #fff;
+  transition-duration: 1.5s;
+}
+#second-section .btn-custom:active {
+  transform: translate(0px, 2px);
+}
+#second-section .btn-custom:hover {
+  background-color: #000;
+}
+#second-section .btn-custom:hover a {
+  color: #FF6B00;
+}
+
+/*END SECOND SECTION*/
+/*THIRD SECTION*/
+#third-section {
+  padding-top: 100px;
+  background-color: #fff;
+  color: rgb(54, 54, 54);
+}
+#third-section h2 {
+  padding-top: 50px;
+  font-weight: bold;
+}
+#third-section .about-section {
+  padding-top: 50px;
+}
+#third-section .about-content-box {
+  color: rgb(54, 54, 54);
+  text-align: center;
+}
+#third-section .about-content-box .small-text {
+  color: #FF6B00;
+  text-align: left;
+}
+#third-section .about-content-box h3 {
+  padding-top: 0px;
+}
+
+/*Slick Slider*/
+#slickSlider {
+  margin-top: 100px;
+  background-color: #FF6B00;
+}
+#slickSlider div {
+  color: #fff;
+}
+#slickSlider div .blockquote-footer {
+  color: #fff;
+}
+#slickSlider div .blockquote-footer cite {
+  color: #000;
+}
+
+/*End Slick Slider*/
+/*END THIRD SECTION*/
+/*FORM SECTION*/
+#form-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#form-section h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+
+/*END FORM SECTION*/
+/*FOOTER*/
+#last-section {
+  padding: 50px 0 20px 0;
+  background-color: rgb(54, 54, 54);
+}
+#last-section div ul li {
+  list-style-type: none;
+  padding: 5px 0 0 5px;
+}
+#last-section div ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+#last-section div ul li a:hover {
+  color: #FF6B00;
+}
+
+/*END FOOTER*/
+/*BACK TO TOP BUTTON*/
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: rgb(54, 54, 54);
+  border-color: #fed875;
+  color: #FF6B00;
+  transition-duration: 0.6s;
+}
+#btn-back-to-top:hover {
+  background-color: #FF6B00;
+  color: rgb(54, 54, 54);
+  border-color: #fed875;
+}
+
+/*END BACK TO TOP BUTTON*/
+/*SOCIAL ICONS*/
+.social-icons {
+  position: fixed;
+  top: 50vh;
+  left: 10px;
+}
+.social-icons .facebook, .social-icons .instagram {
+  padding: 5px 0 5px 0;
+  transition-duration: 0.5s;
+}
+.social-icons .facebook img, .social-icons .instagram img {
+  width: 35px;
+  height: 35px;
+}
+.social-icons .facebook:hover, .social-icons .instagram:hover {
+  transform: rotate(360deg);
+}
+
+/*END SOCIAL ICONS*//*# sourceMappingURL=style.css.map */
